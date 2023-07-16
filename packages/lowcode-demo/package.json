@@ -1,0 +1,19 @@
+{
+  "name": "lowcode-demo",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "masoncat <threehxhot@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/lowcode-demo.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/lowcode-demo.test.js"
+  }
+}
