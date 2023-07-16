@@ -1,15 +1,22 @@
 {
-  "name": "@clotho/lowcode-runtime",
-  "version": "1.0.0",
-  "description": "runtime",
-  "main": "index.js",
-  "scripts": {
-    "start": "webpack serve --open",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
-  },
-  "author": "",
+  "name": "@clotho/lowcode-renderer",
+  "version": "0.0.0",
+  "description": "低代码渲染器",
+  "author": "masoncat <threehxhot@163.com>",
+  "homepage": "",
   "license": "ISC",
+  "main": "lib/lowcode-demo.js",
+  "module": "",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/lowcode-demo.test.js"
+  },
   "devDependencies": {
     "@babel/core": "^7.22.9",
     "@babel/preset-react": "^7.22.5",
